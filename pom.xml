@@ -109,16 +109,17 @@
 		</snapshotRepository>
 
 	</distributionManagement> -->
-	<repositories>
-		<repository>
-			<id>nexus-snapshots</id>
-			<url>http://54.227.58.179:8081/repository/maven-snapshots/</url>
-		</repository>
+	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
 			<url>http://54.227.58.179:8081/repository/maven-releases/</url>
 		</repository>
-	</repositories>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://54.227.58.179:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<build>
 		<finalName>maven-web-application</finalName>
 

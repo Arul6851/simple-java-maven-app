@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NEXUS_CREDENTIALS = 'nexus_credentials'  // Your Jenkins stored credentials ID
+        NEXUS_CREDENTIALS = 'nexus_credentials'
     }
 
     stages {
